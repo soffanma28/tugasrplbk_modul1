@@ -1450,7 +1450,8 @@ function check() {
     if (Array.isArray(filteredData) && filteredData.length) {
         filteredData.forEach((value) => {
             result += `
-                <div class="wrapper">
+                <div class="wrapper"
+                style = "margin: 2%; border: 2px solid">
                     <h2>${value.nama_lengkap}</h2>
                     <p>Nama Lengkap : ${value.nama_lengkap}</p>
                     <p>Nama Panggilan : ${value.nama_panggilan}</p>
